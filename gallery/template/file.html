@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{user}}</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="TITLE" id="">
+        <input type="file" name="file" id="">
+        <button type="submit">ADD</button>
+    </form>
+    <div class="main" style="display:flex; margin-top: 20px;">
+        {% for i in files %}
+            <div class="sub" style=" display: flex; flex-direction: column; padding: 5px;">
+                <a href="{{i.file.url}}"><img src="{{i.file.url}}" alt="" width="200px"></a>
+                <p>{{i.title}}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <a href="../logout"><button>LOG OUT</button></a>
+</body>
+</html>
