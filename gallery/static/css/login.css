@@ -71,3 +71,9 @@ body{
     font-size: 15px;
 }
 
+.doesnt_sign{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
