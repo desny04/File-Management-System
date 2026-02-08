@@ -23,23 +23,29 @@ body{
     border-top-right-radius: 20px;
     background-color: rgb(78, 128, 106);
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    gap: 10px;
     align-items: center;
-    gap: 200px;
 }
 
 .gallery_vault{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    padding-right: 100px;
 }
 
 .logout button{
     width: 150%;
     height: 50%;
-
     border-radius: 5px;
     border: none;
     outline: none;
     color: rgb(58, 96, 58);
 }
 
+.add_head{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
