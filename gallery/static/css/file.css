@@ -50,17 +50,24 @@ body{
     font-weight: 500;
 }
 
-.from_main{
-    align-items: center;
+.form_main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 
 form{
-    width: 480px;
-    height: 50px;
-    border: 1px solid grey;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    background-color: rgb(58, 96, 58);
+    color: white;
+    width:60px;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
 }
