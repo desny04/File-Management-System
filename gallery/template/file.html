@@ -25,6 +25,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="add_head">
+            <p>Add New Memory</p>
+        </div>
+
+        <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+            <input type="text" name="title" placeholder="TITLE" id="">
+            <input type="file" name="file" id="">
+            <button type="submit">ADD</button>
+        </form>
     </div>
     <!-- <h1>{{user.name}}</h1> -->
     <!-- <form action="" method="post" enctype="multipart/form-data">
