@@ -17,12 +17,28 @@ body{
     border-radius: 10px;
 }
 
-.login_head{
+.register_head{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     font-weight: 500;
     text-align: center;
     padding-top: 20px;
+}
+
+.username{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.username input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(171, 170, 170);
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .mail{
@@ -57,6 +73,22 @@ body{
     font-size: 15px;
 }
 
+.cnfm_pwd{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.cnfm_pwd input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(171, 170, 170);
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
 .sbt_btn{
     padding-top: 20px;
     text-align: center;
@@ -74,7 +106,7 @@ body{
     background-color: rgb(125, 172, 151);
 }
 
-.doesnt_sign{
+.already_login{
     padding-top: 20px;
     display: flex;
     justify-content: center;
