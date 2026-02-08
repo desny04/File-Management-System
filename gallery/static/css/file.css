@@ -50,7 +50,7 @@ body{
     font-weight: 500;
 }
 
-.form_main{
+/* .form_main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,4 +70,9 @@ form button{
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
+} */
+
+.form_main{
+    display: flex;
+    justify-content: center;
 }
