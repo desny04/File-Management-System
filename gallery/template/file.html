@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/file.css' %}">
 </head>
 <body>
-    <h1>{{user.name}}</h1>
-    <form action="" method="post" enctype="multipart/form-data">
+    <div class="main_sec">
+
+        <div class="nav">
+
+            <div class="left_nav">
+
+                <div class="gallery_vault">
+                    <p>{{user.name}} Gallery Vault</p>
+                </div>
+            </div>
+
+            <div class="right_nav">
+                <div class="logout">
+                    <a href="../logout"><button>LOG OUT</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <h1>{{user.name}}</h1> -->
+    <!-- <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <input type="text" name="title" placeholder="TITLE" id="">
         <input type="file" name="file" id="">
@@ -20,8 +40,8 @@
                 <p>{{i.title}}</p>
             </div>
         {% endfor %}
-    </div>
+    </div> -->
 
-    <a href="../logout"><button>LOG OUT</button></a>
+    <!-- <a href="../logout"><button>LOG OUT</button></a> -->
 </body>
 </html>

@@ -106,6 +106,10 @@ body{
     background-color: rgb(125, 172, 151);
 }
 
+.sbt_btn input :hover{
+    background-color: rgb(147, 176, 163);
+}
+
 .already_login{
     padding-top: 20px;
     display: flex;
