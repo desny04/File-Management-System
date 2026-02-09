@@ -57,12 +57,17 @@ form{
     justify-content:center;
 }
 
+form .title{
+    padding-top: 3px;
+}
+
 .file{
+    padding-top: 3px;
     width: 200px;
 }
 
 .add button{
-    width: 150%;
+    width: 80px;
     height: 25px;
     background-color:rgb(64, 97, 64);
     color: white;
@@ -87,7 +92,7 @@ form{
 }
 
 .gallery_card img{
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .gallery_card p{
