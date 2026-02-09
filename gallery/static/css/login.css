@@ -13,7 +13,7 @@ body{
 .form{
     background-color: rgb(255, 255, 255);
     width: 350px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 .mail{
-    padding-top: 30px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 .pwd{
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ body{
 }
 
 .sbt_btn{
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ body{
 }
 
 .doesnt_sign{
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
 }
